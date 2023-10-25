@@ -8,8 +8,8 @@ def main():
     Fnum = int(input('Enter number of Female students'))
     Mnum = int(input('Enter number of Male students')) 
     total = Fnum + Mnum 
-    m_perc = mnum / total * 100 
-    f_perc = fnum / total * 100 
+    m_perc = Mnum / total * 100 
+    f_perc = Fnum / total * 100 
     print (f'The percentage of the female students is {f_perc:.2f}')
     print (f'The percentage of the male students is {m_perc:.2f}')
     """
